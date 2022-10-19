@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index,follow">
+    <meta name="description" content="Esta página es un proyecto de pr&aacute;ctica de MisionTic Ciclo 4">
+    <title>Uke Mochi</title>
+    <link rel="shortcut icon" href="Styles/Icons/logo.webp" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Styles/Products-Users/mainProductsUser.css">
+    \<link rel="stylesheet" href="Styles/Products-Users/tabletProductsUser.css" media="screen and (min-width: 700px)">
+    <link rel="stylesheet" href="Styles/Products-Users/DesktopProductsUsers.css" media="screen and (min-width: 950px)">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="menu-container">
+                <img src="Styles/Icons/menu.webp" alt="Logo men&uacute"  onclick="menu()">
+                <ul class="menu-container__options" id="opciones-menu">
+                    <li><a href="">Productos</a></li>
+                    <li><a href="">Cont&aacute;ctanos</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Iniciar Sesi&oacute;n</a></li>
+                </ul>
+            </div>
+            <a href="index.html" class="logo">
+                <img src="Styles/Icons/logo.webp" alt="Logo">
+            </a>
+            <div class="nav-container">
+                <a href="">Productos</a>
+                <a href="">Cont&aacute;ctanos</a>
+                <a href="">About us</a>
+            </div>
+            <a href="" class="Log-in">
+                Iniciar Sesi&oacute;n
+            </a>
+            <div class="shopping-card">
+                <a href="" class="shopping-card__link">
+                    <img src="Styles/Icons/shopping_cart.webp" alt="Icono de carrito de compras">
+                    <div class="shopping-card__number">
+                        <span id="shopping-card-orden">0</span>
+                    </div>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>Galleter&iacute;a</h1>
+        <section class="products">
+            <div class="card-Products">
+                <div class="card-Products__img">
+                    <img src="Styles/IMG/galletas.webp" alt="Galleta">
+                    <div class="card-Products__ranking">
+                        <img src="Styles/Icons/Star 1.webp" alt="Estrella">
+                        <span>4.5</span>
+                    </div>
+                    <div class="card-Products__cost">
+                        <span>$5000</span>
+                    </div>
+                </div>
+                <h2 class="card-Products__title">Galleta</h2>
+                <span class="card-Products__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolore dolor accusamus nostrum dolorem saepe voluptatum delectus adipisci iste?
+                </span>
+                <span class="card-Products__key-words"> <b>KeyWords: </b><span>Crocante, dulce</span> </span>
+                <div class="card-Products__buttom">
+                    <button class="card-Products__buttom--1">Agregar</button>
+                    <div class="card-Products__buttom--2">
+                        <button class="card-Products__buttom-less" >-</button>
+                        <span class="card-Products__buttom-number" >0</span>
+                        <button class="card-Products__buttom-plus">+</button>
+                    </div>
+                </div>
+                <!-- <button type="submit" class="button">
+                    <span class="card-Products__button-title-1">Agregar</span> 
+                    <div class="card-Products__add">
+                        <input type="submit" class="card-Products__less" value="-">
+                        <span class="card-Products__button-title">1</span>
+                        <input type="submit"  class="card-Products__plus" value="+">
+                    </div>
+                </button> -->
+            </div>
+            <div class="card-Products">
+                <div class="card-Products__img">
+                    <img src="Styles/IMG/galletas.webp" alt="Galleta">
+                    <div class="card-Products__ranking">
+                        <img src="Styles/Icons/Star 1.webp" alt="Estrella">
+                        <span>4.5</span>
+                    </div>
+                    <div class="card-Products__cost">
+                        <span>$5000</span>
+                    </div>
+                </div>
+                <h2 class="card-Products__title">Galleta</h2>
+                <span class="card-Products__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolore dolor accusamus nostrum dolorem saepe voluptatum delectus adipisci iste?
+                </span>
+                <span class="card-Products__key-words"> <b>KeyWords: </b><span>Crocante, dulce</span> </span>
+                <div class="card-Products__buttom">
+                    <button class="card-Products__buttom--1">Agregar</button>
+                    <div class="card-Products__buttom--2">
+                        <button class="card-Products__buttom-less" >-</button>
+                        <span class="card-Products__buttom-number" >0</span>
+                        <button class="card-Products__buttom-plus">+</button>
+                    </div>
+                </div>
+                <!-- <button type="submit" class="button">
+                    <span class="card-Products__button-title-1">Agregar</span> 
+                    <div class="card-Products__add">
+                        <input type="submit" class="card-Products__less" value="-">
+                        <span class="card-Products__button-title">1</span>
+                        <input type="submit"  class="card-Products__plus" value="+">
+                    </div>
+                </button> -->
+            </div>
+
+            <div class="card-Products">
+                <div class="card-Products__img">
+                    <img src="Styles/IMG/galletas.webp" alt="Galleta">
+                    <div class="card-Products__ranking">
+                        <img src="Styles/Icons/Star 1.webp" alt="Estrella">
+                        <span>4.5</span>
+                    </div>
+                    <div class="card-Products__cost">
+                        <span>$5000</span>
+                    </div>
+                </div>
+                <h2 class="card-Products__title">Galleta</h2>
+                <span class="card-Products__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolore dolor accusamus nostrum dolorem saepe voluptatum delectus adipisci iste?
+                </span>
+                <span class="card-Products__key-words"> <b>KeyWords: </b><span>Crocante, dulce</span> </span>
+                <div class="card-Products__buttom">
+                    <button class="card-Products__buttom--1">Agregar</button>
+                    <div class="card-Products__buttom--2">
+                        <button class="card-Products__buttom-less" >-</button>
+                        <span class="card-Products__buttom-number" >0</span>
+                        <button class="card-Products__buttom-plus">+</button>
+                    </div>
+                </div>
+                <!-- <button type="submit" class="button">
+                    <span class="card-Products__button-title-1">Agregar</span> 
+                    <div class="card-Products__add">
+                        <input type="submit" class="card-Products__less" value="-">
+                        <span class="card-Products__button-title">1</span>
+                        <input type="submit"  class="card-Products__plus" value="+">
+                    </div>
+                </button> -->
+            </div>
+        </section>
+        
+    </main>
+    <footer>
+        <div class="footer-icons">
+            <img src="Styles/Icons/🦆 icon _facebook round_.webp" alt="Icono de Facebook">
+            <img src="Styles/Icons/🦆 icon _instagram_.webp" alt="Icono de Instagram">
+            <img src="Styles/Icons/🦆 icon _twitter round_.webp" alt="Icono de Twitter">
+            <img src="Styles/Icons/🦆 icon _youtube round 2_.webp" alt="Icono de You Tube">
+        </div>
+    </footer>
+    <script src="JS/index.js"></script>
+</body>
+</html>
