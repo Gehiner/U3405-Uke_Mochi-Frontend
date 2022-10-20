@@ -37,7 +37,6 @@
     display: block;
 }
 .table{
-    width: 1500px;
     display:grid;
 }
 .main-table__header-title{
@@ -47,6 +46,9 @@
     text-align: center;
     color: var(--white);
     
+}
+.main-table__header{
+    grid-template-rows: 30px;
 }
 .main-table__contend-info{
     font-size: var(--title-5);
