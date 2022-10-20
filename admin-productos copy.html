@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index,follow">
+    <meta name="description" content="Esta página es un proyecto de pr&aacute;ctica de MisionTic Ciclo 4">
+    <title>Uke Mochi Admin</title>
+    <link rel="shortcut icon" href="Styles/Icons/logo.webp" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Styles/index-admin/index-admin.css">
+    <link rel="stylesheet" href="Styles/index-admin/index-admin-Desktop.css" media="screen and (min-width: 800px)">
+    <link rel="stylesheet" href="Styles/index-admin/index-admin-table.css">
+    <link rel="stylesheet" href="Styles/index-admin/index-admin-table-productos.css">
+</head>
+<body>
+    <header>
+        <h1>UKE MOCHI</h1>
+        <div class="header-user">
+            <img src="Styles/Icons/dashicons_menu-alt2 (convert.io).webp" alt="icono de men&uacute;" class="header-icon-menu" onclick="menu()">
+            <div class="header-admin">
+                <img src="Styles/Icons/user.webp" alt="icono de usuario" class="header-icon-user">
+                <span>Administrador</span>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="sidebar" id="opciones-menu">
+            <a class="sidebar-option disabled" href="index-admin.html">
+                <img src="Styles/Icons/carbon_add-filled-White.webp" alt="icono de añadir">
+                <span>Crear Productos</span>
+            </a>
+            <a class="sidebar-option active" href="admin-productos.html">
+                <img src="Styles/Icons/mdi_candy.webp" alt="icono de dulces">
+                <span>Productos</span>
+            </a>
+            <a class="sidebar-option disabled" href="">
+                <img src="Styles/Icons/bxs_user-plus-White.webp" alt="icono de añadir usuario">
+                <span>Crear Usuario</span>
+            </a>
+            <a class="sidebar-option disabled" href="admin-users.html">
+                <img src="Styles/Icons/bxs_user-circle-White.webp" alt="Icono de Usuario">
+                <span>Usuarios</span>
+            </a>
+            <a class="sidebar-option disabled" href="">
+                <img src="Styles/Icons/bxs_log-out-circle-White.webp" alt="">
+                <span>Cerrar Sesi&oacute;n</span>
+            </a>
+        </section>
+        <section class="sidebar-Desktop">
+            <a class="sidebar-option disabled" href="index-admin.html">
+                <img src="Styles/Icons/carbon_add-filled-White.webp" alt="icono de añadir">
+                <span>Crear Productos</span>
+            </a>
+            <a class="sidebar-option active" href="admin-productos.html">
+                <img src="Styles/Icons/mdi_candy.webp" alt="icono de dulces">
+                <span>Productos</span>
+            </a>
+            <a class="sidebar-option disabled" href="admin-crearUsuario.html">
+                <img src="Styles/Icons/bxs_user-plus-White.webp" alt="icono de añadir usuario">
+                <span>Crear Usuario</span>
+            </a>
+            <a class="sidebar-option disabled" href="admin-users.html">
+                <img src="Styles/Icons/bxs_user-circle-White.webp" alt="Icono de Usuario">
+                <span>Usuarios</span>
+            </a>
+            <a class="sidebar-option disabled" href="">
+                <img src="Styles/Icons/bxs_log-out-circle-White.webp" alt="">
+                <span>Cerrar Sesi&oacute;n</span>
+            </a>
+        </section>
+        <section class="main-container">
+            <h2 class="main-title">Productos</h2>
+            <div class="main-search">
+                <input type="text" placeholder="B&uacute;squeda">
+                <button type="submit"><img src="Styles/Icons/akar-icons_search.webp" alt=""></button>
+            </div>
+            <div class="main-table-container">
+                <div class="main-table__header table">
+                    <div class="main-table__header-title">
+                        Id
+                    </div>
+                    <div class="main-table__header-title">
+                        Nombre
+                    </div>
+                    <div class="main-table__header-title">
+                        Marca
+                    </div>
+                    <div class="main-table__header-title">
+                        Categor&iacute;a
+                    </div>
+                    <div class="main-table__header-title">
+                        Disponibilidad
+                    </div>
+                    <div class="main-table__header-title">
+                        Precio
+                    </div>
+                    <div class="main-table__header-title">
+                        Cantidad
+                    </div>
+                    <div class="main-table__header-title main-table__header-title-big">
+                        Descripci&oacute;n
+                    </div>
+                    <div class="main-table__header-title">
+                        Puntaje
+                    </div>
+                    <div class="main-table__header-title">
+                        KeyWords
+                    </div>
+                    <div class="main-table__header-title">
+                        URL imagen
+                    </div>
+                </div>
+                <a class="main-table__contend table" href="">
+                    <div class="main-table__contend-info">
+                        1
+                    </div>
+                    <div class="main-table__contend-info">
+                        prueba
+                    </div>
+                    <div class="main-table__contend-info">
+                        Colombina
+                    </div>
+                    <div class="main-table__contend-info">
+                        Galleta
+                    </div>
+                    <div class="main-table__contend-info">
+                        En Bodega
+                    </div>
+                    <div class="main-table__contend-info">
+                        5000
+                    </div>
+                    <div class="main-table__contend-info">
+                        100
+                    </div>
+                    <div class="main-table__contend-info main-table__header-title-big">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quasi corporis esse quia culpa tempore necessitatibus voluptate quidem cupiditate ipsum maxime 
+                    </div>
+                    <div class="main-table__contend-info">
+                        4.5
+                    </div>
+                    <div class="main-table__contend-info">
+                        Crocante
+                    </div>
+                    <div class="main-table__contend-info">
+                        wwww.png.com
+                    </div>
+                </a>
+                
+            </div>
+        </section>
+        
+    </main>
+    <script src="JS/index-admin.js"></script>
+</body>
+</html>

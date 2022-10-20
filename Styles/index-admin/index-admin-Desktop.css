@@ -26,7 +26,7 @@
         padding: 0px;
     }
     .main-container{
-        padding: 12px 0px 0px 200px;
+        padding: 12px 0px 0px 225px;
     }
     .main-contend{
     width: 100%;
@@ -34,12 +34,9 @@
     display: grid;
     align-items: center;
     justify-content: center;
-}
-input, textarea,button{
-    border: none;
-    outline: none;
-}
-.main-input{
+    }
+
+    .main-input{
     width: 300px;
     height: auto;
     display: grid;
