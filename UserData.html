@@ -11,9 +11,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="Styles/ShopingCard/ShopingCard.css">
-    <link rel="stylesheet" href="Styles/ShopingCard/TabletProductUsers.css" media="screen and (min-width: 800px)">
-    <link rel="stylesheet" href="Styles/ShopingCard/DesktopProductsUsers.css" media="screen and (min-width: 950px)">
+    <link rel="stylesheet" href="Styles/UserData/UserData.css">
+    <link rel="stylesheet" href="Styles/UserData/TabletUserData.css" media="screen and (min-width: 800px)">
+    <link rel="stylesheet" href="Styles/UserData/DesktopUserData.css" media="screen and (min-width: 950px)">
 </head>
 <body>
     <header>
@@ -49,46 +49,31 @@
         </nav>
     </header>
     <main>
-        <h1>Carrito</h1>
-        <section class="shopping">
-            <div class="shopping-container">
-                <img src="Styles/IMG/galletas.webp" alt="Galletas" class="shopping-img">
-                <span class="shopping-title">Galleta</span>
-                <div class="card-Products__buttom--2">
-                    <button class="card-Products__buttom-less" >-</button>
-                    <span class="card-Products__buttom-number" >0</span>
-                    <button class="card-Products__buttom-plus">+</button>
-                </div>
-                <button class="shopping-button-delete"><img src="Styles/Icons/ant-design_delete-filled.webp" alt="Icono de borrado"></button>
-                <div class="shopping-value">
-                    <b>$</b>
-                    <span class="shopping-value__number">10000</span>
-                </div>
-            </div>
-            <div class="shopping-container">
-                <img src="Styles/IMG/galletas.webp" alt="Galletas" class="shopping-img">
-                <span class="shopping-title">Galleta</span>
-                <div class="card-Products__buttom--2">
-                    <button class="card-Products__buttom-less" >-</button>
-                    <span class="card-Products__buttom-number" >0</span>
-                    <button class="card-Products__buttom-plus">+</button>
-                </div>
-                <button class="shopping-button-delete"><img src="Styles/Icons/ant-design_delete-filled.webp" alt="Icono de borrado"></button>
-                <div class="shopping-value">
-                    <b>$</b>
-                    <span class="shopping-value__number">10000</span>
-                </div>
-            </div>
-        </section>
-        <section class="payment">
-            <div class="payment-total">
-                <p>
-                    <b>Total: </b>
-                    <b>$ </b>
-                    <span>20000</span>
-                </p>
-            </div>
-            <button type="submit" class="payment-button button">Siguiente</button>
+        <h1>Datos</h1>
+        <section class="main-container">
+            <form action="" class="main-contend">
+                <label for="names" class="main-input">
+                    <span>Nombres</span>
+                    <input type="text" required id="names" name="names">
+                </label>
+                <label for="apellidos" class="main-input">
+                    <span>Apellidos</span>
+                    <input type="text" required id="apellidos" name="apellidos">
+                </label>
+                <label for="cedula" class="main-input">
+                    <span>C&eacute;dula</span>
+                    <input type="number" required id="cedula" name="cedula">
+                </label>
+                <label for="direccion" class="main-input">
+                    <span>Direcci&oacute;n</span>
+                    <input type="text" required id="direccion" name="direccion">
+                </label>
+                <label for="telefono" class="main-input main-input--after-sing">
+                    <span>Tel&eacute;fono</span>
+                    <input type="text" required id="telefono" name="telefono">
+                </label>
+                <button type="submit" class="payment-button button">Comprar</button>
+            </form>
         </section>
     </main>
     <footer>
